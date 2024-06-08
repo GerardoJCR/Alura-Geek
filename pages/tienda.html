@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/tienda.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sevillana&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<script type="module" src="../js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <nav class="header__container">
+        <div class="header__logo">
+            <a href="index.html" >
+                <img src="logoAluraGeek.png" alt="Logo de AluraGeek" class="header__logo-img">
+                
+            </a>
+            
+            <div class="header__formulario">
+                <input type="text" placeholder="¿Que deseas buscar?" class="header__formulario-input" id="buscar" input-buscar>
+                <button class="header__formulario-btn" btn-enviar><i class="bi bi-search"></i></button>
+            </div>
+        </div>
+        <div class="header__menu" id="menu">
+            <a href="index.html" class="menu__link">Inicio</a>
+            <a href="tienda.html" class="menu__link">Tienda</a>
+            <a href="administrador.html" class="menu__link">Administrador</a>
+        </div>
+        <div class="hamburguer" id="hamburguer">
+            <span class="hamburguer__bar"></span>
+            <span class="hamburguer__bar"></span>
+            <span class="hamburguer__bar"></span>
+        </div>
+    </nav>
+
+    <main class="main">
+        
+        <div class="main__titulo">
+            <h2>Nuestros productos</h2>
+        </div>  
+        <section class="section__productos" data-productos>
+            
+            
+            <!-- <article class="card__productos">
+                <div class="productos__container-precio">
+                    <p class="producto__precio"><span>$</span>20,00</p>
+                </div>
+              <div class="productos__container-img">
+                <img src="https://home.ripley.com.pe/Attachment/WOP_5/2032288083138/2032288083138-2.jpg" alt="Imagen de la carta" class="card__productos__img">
+              </div>
+                <div class="productos__container-informacion">
+                    <h3 class="producto__titulo">Titulo del producto</h3>
+                    <a href="#">Seleccionar</a>
+                </div>
+            </article>
+            <article class="card__productos">
+                <div class="productos__container-precio">
+                    <p class="producto__precio"><span>$</span>20,00</p>
+                </div>
+              <div class="productos__container-img">
+                <img src="https://home.ripley.com.pe/Attachment/WOP_5/2032279312100/2032279312100_2.jpg" alt="Imagen de la carta" class="card__productos__img">
+              </div>
+                <div class="productos__container-informacion">
+                    <h3 class="producto__titulo">Titulo del producto</h3>
+                    <a href="#">Seleccionar</a>
+                </div>
+            </article>
+            <article class="card__productos">
+                <div class="productos__container-precio">
+                    <p class="producto__precio"><span>$</span>20,00</p>
+                </div>
+              <div class="productos__container-img">
+                <img src="https://home.ripley.com.pe/Attachment/WOP_5/2032288083138/2032288083138-2.jpg" alt="Imagen de la carta" class="card__productos__img">
+              </div>
+                <div class="productos__container-informacion">
+                    <h3 class="producto__titulo">Titulo del producto</h3>
+                    <a href="#">Seleccionar</a>
+                </div>
+            </article>
+            <article class="card__productos">
+                <div class="productos__container-precio">
+                    <p class="producto__precio"><span>$</span>20,00</p>
+                </div>
+              <div class="productos__container-img">
+                <img src="https://home.ripley.com.pe/Attachment/WOP_5/2032288083138/2032288083138-2.jpg" alt="Imagen de la carta" class="card__productos__img">
+              </div>
+                <div class="productos__container-informacion">
+                    <h3 class="producto__titulo">Titulo del producto</h3>
+                    <a href="#">Seleccionar</a>
+                </div>
+            </article>
+            <article class="card__productos">
+                <div class="productos__container-precio">
+                    <p class="producto__precio"><span>$</span>20,00</p>
+                </div>
+              <div class="productos__container-img">
+                <img src="https://home.ripley.com.pe/Attachment/WOP_5/2032288083138/2032288083138-2.jpg" alt="Imagen de la carta" class="card__productos__img">
+              </div>
+                <div class="productos__container-informacion">
+                    <h3 class="producto__titulo">Titulo del producto</h3>
+                    <a href="#">Seleccionar</a>
+                </div>
+            </article>
+            <article class="card__productos">
+                <div class="productos__container-precio">
+                    <p class="producto__precio"><span>$</span>20,00</p>
+                </div>
+              <div class="productos__container-img">
+                <img src="https://home.ripley.com.pe/Attachment/WOP_5/2032288083138/2032288083138-2.jpg" alt="Imagen de la carta" class="card__productos__img">
+              </div>
+                <div class="productos__container-informacion">
+                    <h3 class="producto__titulo">Titulo del producto</h3>
+                    <a href="#">Seleccionar</a>
+                </div>
+            </article> -->
+        </section>
+    </main>   
+     
+    <!-- footer -->
+    <div id="footer"></div>
+
+    
+    <script src="../js/mostrarProducto.js" type="module"></script>
+    <script src="../js/buscarProductos.js" type="module"></script>
+    
+</body>
+</html>

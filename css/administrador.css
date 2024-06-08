@@ -1,0 +1,161 @@
+.rojito{
+    background-color: red;
+}
+
+.formulario__titulo{
+    text-align: center;
+    padding: 2rem;
+    font-size: 2.2rem;
+}
+.section__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contenedor__formulario{
+    width: 500px;
+    height: 400px;
+    margin: 2rem;
+    background: linear-gradient(rgba(17, 170, 37, 0.521) ,rgb(41, 154, 199));
+    color: #fff;
+    border-radius: 2rem;
+    
+}
+.contenedor__formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contenedor__formulario input{
+    width: 100%;
+    margin: 2rem, 0;
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 2rem;
+    outline: none;
+    background-color: #1114;
+    color: #fff;
+    margin: 1rem 0;
+    font-size: 1.6rem;
+    border: 3px solid #0c44697c;
+}
+input::placeholder{
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.formulario__btn{
+    background-color: #111;    
+    color: #fff;
+    padding: 1rem 0;
+    width: 40%;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 1rem;
+}
+.formulario__contenedor_btns{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.clean{
+    background-color: #fff;
+    color: #111;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/*productos*/
+.section__productos{
+    
+    border-radius: 1rem;
+    box-shadow: -10px 5px 30px #1115;
+    margin: 3rem;
+    max-height: 60rem;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}   
+.card__productos{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 25rem;
+    height: 30rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+}
+.productos__container-img{
+    width: 100%;
+    max-height: 60%;
+    
+}
+.card__productos__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.productos__container-informacion{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    height: 100%;
+}
+.producto__titulo{
+    font-size: 1.9rem;
+}
+
+.producto__precios{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+.producto__precios p {
+    font-size: 2.8rem;
+}
+.producto__precios span {
+    font-size: 2.9rem;
+    cursor: pointer;
+    color: red;
+    padding: 0 0.2rem;
+}
+
+
+@media (max-width:768px){
+    .section__content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contenedor__formulario{
+        width: 90%;
+        box-sizing: border-box;
+
+        
+        
+    }
+    .section__productos{
+        flex-direction: column;
+        /* background-color: red; */
+        width: 100%;
+        margin: initial;
+        box-sizing: border-box;
+        margin-bottom: 2rem;
+        
+    }
+}
+
+
+
