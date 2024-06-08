@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge AluraGeek</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sevillana&display=swap" rel="stylesheet">
@@ -15,14 +15,14 @@
     <nav class="header__container">
         <div class="header__logo">
             <a href="index.html" >
-                <img src="logoAluraGeek.png" alt="Logo de AluraGeek" class="header__logo-img">
+                <img src="img/logoAluraGeek.png" alt="Logo de AluraGeek" class="header__logo-img">
                 <span class="header__logo-img"></span>
             </a>
         </div>
         <div class="header__menu" id="menu">
             <a href="index.html" class="menu__link">Inicio</a>
-            <a href="tienda.html" class="menu__link">Tienda</a>
-            <a href="administrador.html" class="menu__link">Administrador</a>
+            <a href="pages/tienda.html" class="menu__link">Tienda</a>
+            <a href="pages/administrador.html" class="menu__link">Administrador</a>
         </div>
         <div class="hamburguer" id="hamburguer">
             <span class="hamburguer__bar"></span>
@@ -58,9 +58,20 @@
 
     </main>  
 
-    <div id="footer"></div>
+    <footer class="footer">
+        <div class="container__footer">
+            <div class="footer__logo">
+                <a href="index.html">
+                    <img src="../img/logoAluraGeek.png" alt="">
+                </a>
+            </div>
+            <div class="footer__info">
+                <p>Desarrollado por Gerardo Chevarria</p>
+                <p>Curso ONE Alura - 2024</p>
+            </div>
+        </div>
+    </footer>
 
-    <script src="../js/main.js"  type="module"></script>
-    <script src="../js/tiendaIndex.js" type="module"></script>
+    <script src="js/tiendaIndex.js" type="module"></script>
 </body>
 </html>
